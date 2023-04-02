@@ -12,56 +12,96 @@ $gold-primary: #A47E1B;
     box-sizing: inherit;
 }
 
-body{
+body {
     max-width: 1200px;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: $color-primary;
     color: $text-primary-color;
 }
-.btn{
+
+section {
+    padding: 100px 0;
+}
+
+.btn {
     background-color: $color-primary;
     border: 1px solid $gold-primary;
     color: $gold-primary;
     border-radius: 25px;
-}
-.btn:hover{
-    background-color: $gold-primary;
-    color: $color-primary;
+    &:hover {
+        background-color: $gold-primary;
+        color: $color-primary;
+    }
 }
 
-.introduction-span{
+
+
+/* introduction */
+.span{
     color: $gold-primary;
+    margin-left: 12px;
 }
-
-.introduction{
-    
-
-    &__name{
+.introduction {
+    display: flex;
+    flex-direction: column;
+    &__welcome {
+        font-size: 100px;
         
     }
 
-    &__info{
+    &__info {
+        margin-left: 15px;
+    }
+}
+.buttons-container{
+    margin-left: 15px;
+    margin-top: 10px;
+}
 
+
+
+/* about */
+
+.about {
+
+
+    &__name {}
+
+    &__info {
+        text-transform: capitalize;
     }
 }
 
 /* navbar */
+.navbar{
+    margin: 20px 0;
 
-.navbar-brand{
-    color: $gold-primary;
+    &-brand {
+        color: $gold-primary;
+    }
+    
+    &-nav {
+        color: $text-primary-color;
+    }
+
 }
 
-.navbar-nav{
-    color: $text-primary-color; 
+
+.nav-link {
+    color: $text-primary-color;
+
+    &:hover {
+        color: $gold-primary;
+    }
 }
 
-.nav-link{
-    color: $text-primary-color; 
-}
-.nav-link:hover{
-    color: $gold-primary;
-}
-.active{
-    color: $text-primary-color!important;
+
+.active {
+    color: $text-primary-color !important;
     text-decoration: underline;
+
+    &:hover{
+        color: $gold-primary!important;
+    }
 }

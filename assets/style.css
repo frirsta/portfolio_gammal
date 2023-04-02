@@ -9,36 +9,59 @@
 
 body {
   max-width: 1200px;
+  min-height: 100vh;
   margin: 0 auto;
   background-color: #032927;
   color: #dddddd; }
+
+section {
+  padding: 100px 0; }
 
 .btn {
   background-color: #032927;
   border: 1px solid #A47E1B;
   color: #A47E1B;
   border-radius: 25px; }
+  .btn:hover {
+    background-color: #A47E1B;
+    color: #032927; }
 
-.btn:hover {
-  background-color: #A47E1B;
-  color: #032927; }
+/* introduction */
+.span {
+  color: #A47E1B;
+  margin-left: 12px; }
 
-.introduction-span {
-  color: #A47E1B; }
+.introduction {
+  display: flex;
+  flex-direction: column; }
+  .introduction__welcome {
+    font-size: 100px; }
+  .introduction__info {
+    margin-left: 15px; }
+
+.buttons-container {
+  margin-left: 15px;
+  margin-top: 10px; }
+
+/* about */
+.about__info {
+  text-transform: capitalize; }
 
 /* navbar */
-.navbar-brand {
-  color: #A47E1B; }
-
-.navbar-nav {
-  color: #dddddd; }
+.navbar {
+  margin: 20px 0; }
+  .navbar-brand {
+    color: #A47E1B; }
+  .navbar-nav {
+    color: #dddddd; }
 
 .nav-link {
   color: #dddddd; }
-
-.nav-link:hover {
-  color: #A47E1B; }
+  .nav-link:hover {
+    color: #A47E1B; }
 
 .active {
   color: #dddddd !important;
   text-decoration: underline; }
+  .active:hover {
+    color: #A47E1B !important; }
