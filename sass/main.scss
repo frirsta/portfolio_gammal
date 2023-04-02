@@ -1,0 +1,67 @@
+$color-primary: #032927;
+$text-primary-color: #dddddd;
+$gold-primary: #A47E1B;
+
+*,
+*::after,
+*::before {
+    background-color: $color-primary;
+    color: $text-primary-color;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: $color-primary;
+    color: $text-primary-color;
+}
+.btn{
+    background-color: $color-primary;
+    border: 1px solid $gold-primary;
+    color: $gold-primary;
+    border-radius: 25px;
+}
+.btn:hover{
+    background-color: $gold-primary;
+    color: $color-primary;
+}
+
+.introduction-span{
+    color: $gold-primary;
+}
+
+.introduction{
+    
+
+    &__name{
+        
+    }
+
+    &__info{
+
+    }
+}
+
+/* navbar */
+
+.navbar-brand{
+    color: $gold-primary;
+}
+
+.navbar-nav{
+    color: $text-primary-color; 
+}
+
+.nav-link{
+    color: $text-primary-color; 
+}
+.nav-link:hover{
+    color: $gold-primary;
+}
+.active{
+    color: $text-primary-color!important;
+    text-decoration: underline;
+}

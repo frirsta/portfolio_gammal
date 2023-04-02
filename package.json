@@ -1,0 +1,17 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "developer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss assets/style.css -w"
+  },
+  "author": "frirsta",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
