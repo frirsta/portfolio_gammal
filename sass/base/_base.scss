@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    background-color: $color-primary;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: $color-primary;
+}
+
+section {
+    padding: 100px 0;
+}

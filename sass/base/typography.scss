@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    color: $text-primary-color;
+}
+body {
+    color: $text-primary-color;
+}
+.about {
+
+
+    &__name {}
+
+    &__info {
+        text-transform: capitalize;
+    }
+}
+
+.introduction {
+
+    &__welcome {
+        font-size: 120px;
+        
+    } 
+}
+
+.span{
+    color: $gold-primary; 
+}
+
+/* navbar */
+.navbar{
+
+    &-brand {
+        color: $gold-primary;
+    }
+    
+    &-nav {
+        color: $text-primary-color;
+    }
+
+}
+
+
+.nav-link {
+    color: $text-primary-color;
+
+    &:hover {
+        color: $gold-primary;
+    }
+}
+
+
+.active {
+    color: $text-primary-color !important;
+    text-decoration: underline;
+
+    &:hover{
+        color: $gold-primary!important;
+    }
+}
+
+.btn {
+    color: $gold-primary;
+    &:hover {
+        color: $color-primary;
+    }
+}

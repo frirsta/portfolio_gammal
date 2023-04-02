@@ -1,0 +1,10 @@
+.btn {
+    background-color: $color-primary;
+    border: 1px solid $gold-primary;
+    border-radius: 25px;
+    padding: 10px 20px;
+
+    &:hover {
+        background-color: $gold-primary;
+    }
+}

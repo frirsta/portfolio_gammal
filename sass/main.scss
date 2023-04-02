@@ -1,54 +1,27 @@
-$color-primary: #032927;
-$text-primary-color: #dddddd;
-$gold-primary: #A47E1B;
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
-*,
-*::after,
-*::before {
-    background-color: $color-primary;
-    color: $text-primary-color;
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
+@import 'base/base';
+@import 'base/animations';
+@import 'base/typography';
+@import 'base/utilities';
 
-body {
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
-    background-color: $color-primary;
-    color: $text-primary-color;
-}
+@import 'components/buttons';
 
-section {
-    padding: 100px 0;
-}
+@import 'layout/navbar';
 
-.btn {
-    background-color: $color-primary;
-    border: 1px solid $gold-primary;
-    color: $gold-primary;
-    border-radius: 25px;
-    &:hover {
-        background-color: $gold-primary;
-        color: $color-primary;
-    }
-}
+@import 'pages/home';
 
 
 
 /* introduction */
 .span{
-    color: $gold-primary;
     margin-left: 12px;
 }
 .introduction {
     display: flex;
     flex-direction: column;
-    &__welcome {
-        font-size: 100px;
-        
-    }
 
     &__info {
         margin-left: 15px;
@@ -61,47 +34,5 @@ section {
 
 
 
-/* about */
-
-.about {
 
 
-    &__name {}
-
-    &__info {
-        text-transform: capitalize;
-    }
-}
-
-/* navbar */
-.navbar{
-    margin: 20px 0;
-
-    &-brand {
-        color: $gold-primary;
-    }
-    
-    &-nav {
-        color: $text-primary-color;
-    }
-
-}
-
-
-.nav-link {
-    color: $text-primary-color;
-
-    &:hover {
-        color: $gold-primary;
-    }
-}
-
-
-.active {
-    color: $text-primary-color !important;
-    text-decoration: underline;
-
-    &:hover{
-        color: $gold-primary!important;
-    }
-}
