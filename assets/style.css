@@ -67,6 +67,20 @@ body {
 .navbar {
   margin: 20px 0; }
 
+.hero {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0; }
+  .hero__image {
+    width: 50vw;
+    height: 100vh;
+    border-radius: 10px; }
+
+.introduction-container {
+  display: flex; }
+
 /* introduction */
 .span {
   margin-left: 12px; }

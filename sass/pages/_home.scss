@@ -1,0 +1,16 @@
+.hero{
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    &__image{
+        width: 50vw;
+        height: 100vh;
+        border-radius: 10px;
+    }
+}
+
+.introduction-container{
+display: flex;
+}
