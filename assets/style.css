@@ -1,0 +1,35 @@
+* {
+    background-color: rgb(3, 41, 39);
+    color: rgb(221, 221, 221);
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(3, 41, 39);
+    color: rgb(221, 221, 221);
+}
+
+.introduction{
+    color: #A47E1B;
+}
+/* navbar */
+
+.navbar-brand{
+    color: #A47E1B;
+}
+
+.navbar-nav{
+    color: rgb(221, 221, 221); 
+}
+
+.nav-link{
+    color: rgb(221, 221, 221); 
+}
+.nav-link:hover{
+    color: #A47E1B;
+}
+.active{
+    color: rgb(221, 221, 221)!important;
+    text-decoration: underline;
+}
