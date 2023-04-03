@@ -1,7 +1,6 @@
 *,
 *::after,
 *::before {
-  background-color: #032927;
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
@@ -67,6 +66,13 @@ body {
 .navbar {
   margin: 20px 0; }
 
+.navbar-toggler {
+  z-index: 1; }
+
+.navbar-nav {
+  width: 30vw;
+  justify-content: space-evenly; }
+
 .hero {
   width: 50vw;
   height: 100vh;
@@ -76,10 +82,14 @@ body {
   .hero__image {
     width: 50vw;
     height: 100vh;
-    border-radius: 10px; }
+    border-radius: 10px;
+    z-index: 0; }
+
+.hero-container {
+  display: flex; }
 
 .introduction-container {
-  display: flex; }
+  z-index: 2; }
 
 /* projects */
 /* introduction */

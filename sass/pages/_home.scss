@@ -8,11 +8,16 @@
         width: 50vw;
         height: 100vh;
         border-radius: 10px;
+        z-index: 0;
     }
 }
 
-.introduction-container{
+.hero-container{
 display: flex;
+}
+
+.introduction-container{
+    z-index: 2;
 }
 
 /* projects */

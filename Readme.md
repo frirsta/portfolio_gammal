@@ -1,6 +1,9 @@
 gold
 #A47E1B
 
+download
+<a href="https://www.flaticon.com/free-icons/download" title="download icons">Download icons created by Uniconlabs - Flaticon</a>
+
 blue
 #64adaa
 
