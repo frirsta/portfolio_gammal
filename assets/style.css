@@ -58,13 +58,18 @@ body {
   background-color: #032927;
   border: 1px solid #A47E1B;
   border-radius: 25px;
-  padding: 10px 20px; }
+  padding: 10px 15px; }
   .btn:hover {
     background-color: #A47E1B; }
 
+.projects__github__links {
+  text-decoration: none;
+  color: #dddddd;
+  padding: 5px 0; }
+
 /* navbar */
 .navbar {
-  margin: 20px 0; }
+  margin: 40px 0; }
 
 .navbar-toggler {
   z-index: 1; }
@@ -86,12 +91,37 @@ body {
     z-index: 0; }
 
 .hero-container {
-  display: flex; }
+  display: flex;
+  min-height: 79vh; }
 
 .introduction-container {
   z-index: 2; }
 
 /* projects */
+.projects {
+  display: flex;
+  justify-content: space-between; }
+  .projects__container {
+    border: 1px solid;
+    height: 450px;
+    width: 18rem;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 40px; }
+  .projects__image {
+    border: 1px solid;
+    height: 150px;
+    width: 18rem;
+    border-radius: 15px; }
+  .projects__list-container {
+    display: flex; }
+  .projects__title {
+    margin: 15px 0; }
+  .projects__github {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+
 /* introduction */
 .span {
   margin-left: 12px; }

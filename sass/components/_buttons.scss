@@ -2,9 +2,21 @@
     background-color: $color-primary;
     border: 1px solid $gold-primary;
     border-radius: 25px;
-    padding: 10px 20px;
+    padding: 10px 15px;
 
     &:hover {
         background-color: $gold-primary;
     }
 }
+
+.projects {
+    &__github{
+        &__links{
+            text-decoration: none;
+            color: $text-primary-color;
+            padding: 5px 0;
+        }
+    }
+    }
+
+
