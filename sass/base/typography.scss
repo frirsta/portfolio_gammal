@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 *,
 *::after,
 *::before {
     color: $text-primary-color;
+    font-family: 'Roboto', sans-serif;
 }
+
 body {
     color: $text-primary-color;
+    font-family: 'Roboto', sans-serif;
 }
+
 .about {
 
 
@@ -20,21 +26,26 @@ body {
 
     &__welcome {
         font-size: 120px;
-        
-    } 
+        font-weight: 100;
+
+    }
+
+    &__info {
+        font-weight: 300;
+    }
 }
 
-.span{
-    color: $gold-primary; 
+.span {
+    color: $gold-primary;
 }
 
 /* navbar */
-.navbar{
+.navbar {
 
     &-brand {
         color: $gold-primary;
     }
-    
+
     &-nav {
         color: $text-primary-color;
     }
@@ -55,14 +66,40 @@ body {
     color: $text-primary-color !important;
     text-decoration: underline;
 
-    &:hover{
-        color: $gold-primary!important;
+    &:hover {
+        color: $gold-primary !important;
     }
 }
 
 .btn {
     color: $gold-primary;
+
     &:hover {
         color: $color-primary;
     }
+}
+
+/* projects  */
+/* projects */
+
+.projects {
+    &__body {
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    &__title,
+    &__technologies,
+    &__date,
+    &__text li {
+        color: $color-primary;
+    }
+
+    &__github {
+        &__links {
+            text-decoration: none;
+            color: $color-primary;
+        }
+    }
+
 }

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 *,
 *::after,
 *::before {
@@ -17,16 +18,22 @@ section {
 *,
 *::after,
 *::before {
-  color: #dddddd; }
+  color: #dddddd;
+  font-family: 'Roboto', sans-serif; }
 
 body {
-  color: #dddddd; }
+  color: #dddddd;
+  font-family: 'Roboto', sans-serif; }
 
 .about__info {
   text-transform: capitalize; }
 
 .introduction__welcome {
-  font-size: 120px; }
+  font-size: 120px;
+  font-weight: 100; }
+
+.introduction__info {
+  font-weight: 300; }
 
 .span {
   color: #A47E1B; }
@@ -54,6 +61,20 @@ body {
   .btn:hover {
     color: #032927; }
 
+/* projects  */
+/* projects */
+.projects__body {
+  font-weight: 600;
+  font-size: 15px; }
+
+.projects__title, .projects__technologies, .projects__date,
+.projects__text li {
+  color: #032927; }
+
+.projects__github__links {
+  text-decoration: none;
+  color: #032927; }
+
 .btn {
   background-color: #032927;
   border: 1px solid #A47E1B;
@@ -63,20 +84,18 @@ body {
     background-color: #A47E1B; }
 
 .projects__github__links {
-  text-decoration: none;
-  color: #dddddd;
   padding: 5px 0; }
 
 /* navbar */
-.navbar {
-  margin: 40px 0; }
-
 .navbar-toggler {
   z-index: 1; }
 
-.navbar-nav {
-  width: 30vw;
-  justify-content: space-evenly; }
+.navbar {
+  position: relative;
+  top: 40px; }
+  .navbar-nav {
+    width: 30vw;
+    justify-content: space-evenly; }
 
 .hero {
   width: 50vw;
@@ -92,7 +111,7 @@ body {
 
 .hero-container {
   display: flex;
-  min-height: 79vh; }
+  min-height: 68vh; }
 
 .introduction-container {
   z-index: 2; }
@@ -101,26 +120,49 @@ body {
 .projects {
   display: flex;
   justify-content: space-between; }
+  .projects__outer {
+    width: fit-content; }
   .projects__container {
     border: 1px solid;
-    height: 450px;
     width: 18rem;
     padding: 30px;
     border-radius: 20px;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    background-color: #6a998b; }
   .projects__image {
     border: 1px solid;
     height: 150px;
     width: 18rem;
     border-radius: 15px; }
+  .projects__card {
+    width: 290px !important;
+    height: 150px; }
+  .projects__body {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; }
   .projects__list-container {
-    display: flex; }
+    display: flex;
+    height: 12vh;
+    width: 90%;
+    justify-content: space-between; }
   .projects__title {
-    margin: 15px 0; }
+    margin: 5px 0; }
+  .projects__date-technologies {
+    height: 42px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between; }
   .projects__github {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    height: 42px; }
+
+@media screen and (max-width: 1199px) {
+  .projects {
+    justify-content: space-evenly; } }
 
 /* introduction */
 .span {

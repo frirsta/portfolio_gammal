@@ -1,0 +1,75 @@
+/* projects */
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+
+    &__outer{
+        width: fit-content;
+    }
+
+    &__container {
+        border: 1px solid;
+        width: 18rem;
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+        background-color: $blue-color;
+        
+    }
+    &__image {
+        border: 1px solid;
+        height: 150px;
+        width: 18rem;
+        border-radius: 15px;
+        
+    }
+
+    &__card{
+        width: 290px!important;
+        height: 150px;
+    }
+    &__body{
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    &__list-container{
+        display: flex;
+        height: 12vh;
+        width: 90%;
+        justify-content: space-between;
+    }
+    &__title{
+        margin: 5px 0;
+    }
+
+    &__date-technologies{
+        height: 42px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    &__technologies{}
+    &__date{
+      
+    }
+    &__text{}
+
+    &__github{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 42px;
+
+    }
+
+
+}
+
+@media screen and (max-width: 1199px) {
+    .projects{
+        justify-content: space-evenly;
+    }
+}

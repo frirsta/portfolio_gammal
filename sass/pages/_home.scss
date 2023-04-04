@@ -15,53 +15,9 @@
 
 .hero-container {
     display: flex;
-    min-height: 79vh;
+    min-height: 68vh;
 }
 
 .introduction-container {
     z-index: 2;
-}
-
-/* projects */
-
-.projects {
-    display: flex;
-    justify-content: space-between;
-
-    &__container {
-        border: 1px solid;
-        height: 450px;
-        width: 18rem;
-        padding: 30px;
-        border-radius: 20px;
-        margin-bottom: 40px;
-    }
-    &__image {
-        border: 1px solid;
-        height: 150px;
-        width: 18rem;
-        border-radius: 15px;
-        
-    }
-
-    &__card{}
-    &__body{}
-    &__list-container{
-        display: flex;
-    }
-    &__title{
-        margin: 15px 0;
-    }
-    &__technologies{}
-    &__date{}
-    &__text{}
-
-    &__github{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-    }
-
-
 }
